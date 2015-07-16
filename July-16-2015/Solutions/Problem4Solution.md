@@ -8,7 +8,6 @@ function lcr(arr) {
     var nums = arr.slice();
     var bestLength = 0;
     var bestStart = 0;
-    //can't use forEach as we're modifying it in-place
     while (nums.length) {
         var value = nums.shift();
         var start = value;
