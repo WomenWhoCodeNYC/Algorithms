@@ -1,4 +1,3 @@
-// Example program
 #include <iostream>
 #include <string>
 #include <set>
@@ -14,11 +13,14 @@ std::string GetSentence(std::set<std::string>& dictionary, std::string& words) {
       check = "";
     }
   }
+  if (!result.empty())
+    result.pop_back();
   return result;
 }
 
 int main()
 {
+  // example of dictionary
   std::set<std::string> dictionary = {"this", "is", "a", "fun", "problem"};
   std::string words;     
   std::cout<<"Please, provide a string"<<std::endl;
