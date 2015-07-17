@@ -45,5 +45,38 @@ function devowelize($string) {
     return $devowelized_string;
 }
 
-// Call our function with "algorithms". Returns "grthms".
-echo devowelize("algorithms");
+// Test this out with a few strings
+
+$algorithms = devowelize("algorithms");
+if ($algorithms === "lgrthms") {
+    echo $algorithms . ": Successfully devowelized \"algorithms\"\n";
+} else {
+    echo $algorithms . ": Failed to devowelize \"algorithms\"\n";
+}
+
+$hello_world = devowelize("Hello world");
+if ($hello_world === "Hll wrld") {
+    echo $hello_world . ": Successfully devowelized \"Hello world\"\n";
+} else {
+    echo $hello_world . ": Failed to devowelize \"Hello world\"\n";
+}
+
+$betterment = devowelize("Betterment");
+if ($betterment === "Bttrmnt") {
+    echo $betterment . ": Successfully devowelized \"Betterment\"\n";
+} else {
+    echo $betterment . ": Failed to devowelize \"Betterment\"\n";
+}
+
+// In hindsight, we realized we haven't taken into account capital letters
+// at all. This test will fail:
+
+$independence = devowelize("Independence");
+if ($independence === "ndpndnc") {
+    echo $independence . ": Successfully devowelized \"Independence\"\n";
+} else {
+    echo $independence . ": Failed to devowelize \"Independence\"\n";
+}
+
+// We could do one of two things- modify our vowel map to include uppercase
+// versions of vowels, or lowercase our letter before we compare it to the map.
