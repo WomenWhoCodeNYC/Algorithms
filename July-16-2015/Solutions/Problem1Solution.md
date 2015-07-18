@@ -19,3 +19,11 @@ function removeVowels(str) {
     return tmpStr;
 }
 ```
+
+
+Ruby
+```
+  def removeVowels(str)
+   str.is_a?(String) ? str.delete!('aeiouAEIOU') : str
+  end
+```

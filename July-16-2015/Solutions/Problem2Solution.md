@@ -30,3 +30,15 @@ var matrix = [
 diagonalSum(matrix) //will return 180 (6 * 2 * 1 * 3 * 5)
 ```
 
+Ruby
+```
+def get_diagonal_product(matrix)
+  product = matrix.first[0]
+
+  matrix.each_with_index do |row, index|
+    product = product * row[index] unless index == 0
+  end
+
+  product
+end
+```
