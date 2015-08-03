@@ -1,7 +1,5 @@
 **Level 5** <br>
 
-Create a function called isPalindrome() that returns true or false depending on whether the string is a palindrome.
+Create a function called permutate() to return an array of all the different permutations of the letters in a string. Your input will be a string consisting of three characters and the return value should be an array of strings. If the input is not a string, return false.
 
-A palindrome is a string of letters that can be read the same backward and forward. An example is 'Taco cat'.	
-
-Extension: Make the function resursive.
+Example: permutate('abc') should return ['abc', 'acb', 'bac', 'bca', 'cba', 'cab'].
