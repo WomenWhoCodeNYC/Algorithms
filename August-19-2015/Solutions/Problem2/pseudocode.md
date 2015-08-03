@@ -1,3 +1,4 @@
+```
 function getFileExtension(string)
 	var answer
 	search string('.')
@@ -6,4 +7,5 @@ function getFileExtension(string)
 	else: 
 		answer = everything after the dot
 		return answer
+```
 
