@@ -5,4 +5,17 @@ Create a function called reverse() that takes in a set of key-value pairs (objec
 Example:
 inputObject: {'a':1, 'b':2}
 
-reverse(inputObject) should return {1:'b', 2:'c'}
+`reverse(inputObject)` should return {1:'b', 2:'c'}
+
+inputObject2 = {
+    "a": "1",
+    "b": "2",
+    "c": "1",
+    "d": "3"
+}
+
+`reverse(inputObject2)` should return {
+    "1": ["a", "c"],
+    "2": ["b"]
+    "3": ["d"]
+}
