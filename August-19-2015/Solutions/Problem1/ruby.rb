@@ -9,14 +9,12 @@ INPUT EXAMPLES       OUTPUT EXAMPLES
 
 
 PROCESS
-
 1. Validate is_a? integer
 2. 'Not a number!' if != integer and return
 3. Multiply number * 2
 =end
 
 #ANSWER
-
 def double(num)
   return 'Not a number!' unless num.is_a? Integer
   num * 2
