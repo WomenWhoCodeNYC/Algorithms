@@ -28,7 +28,7 @@ def permutate(str)
   end
   
   #STEP3
-  perms = combinations(str).to_s
+  perms = combinations(str)
   return perms
 end
 
@@ -40,7 +40,6 @@ questions = [
   ['abc', ["abc", "acb", "bac", "bca", "cab", "cba"]] #Note: order of the perm will change if ex. 'bac'
 ]
 
-puts permutate('abc')
 questions.each do |q|
   permutate(q[0]) == q[1] ?  (puts 'Correct!'): (puts 'Wrong')
 end
