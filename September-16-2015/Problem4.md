@@ -2,7 +2,7 @@
 Given a list of integers and a single sum value, return the first two values (starting from the left) in order of appearance that add up to the sum.
 
 #Examples
-```
+``` javascript
 sum_pairs([11, 3, 7, 5],         10)
 //             ^--^      3 + 7 = 10
 // should return [3, 7]
