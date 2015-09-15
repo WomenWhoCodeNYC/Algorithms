@@ -10,6 +10,7 @@ This repo and these events are created, crafted, and cared for by women identifi
 
 ## Got a good `problem`? Maybe a sweet `solution`?
 Follow these steps to contribute your favorite solution in whatever language you love:
+
 1. Fork the repository and clone it locally
 2. Create a branch
 3. Add and commit your changes.
