@@ -5,7 +5,7 @@
 * `New problems!` They should be language agnostic, vary widely in difficulty, and should take between 5-20 minutes to complete. We aim to have about 6 problems per event, with level 1 being the easiest and level 6 being the hardest. If you submit a problem, please consider submitting one solution as well in either pseudo code or the language of your choice.
 * `New solutions!` We accept all levels of optimization and all languages. Consider adding tests for bonus points :)
 * `Presenters!` Do you have a 5-10 minute talk that could help someone ace their next interview or come one step closer to mastering algorithms? Talk to one of our volunteers and pitch us your idea.
-* `Tutors` and `in person volunteers!` We need folks to do everything from help people check in, to find the bathroom, to tutor beginners, to push our advanced folks farther. If one of those roles sounds exciting to you, talk to a volunteer!
+* `Tutors` and `in person volunteers!` We need folks to do everything from help people check in, to find the bathroom, to tutoring and supporting our fellow women coders. If one of those roles sounds exciting to you, talk to a volunteer!
 
 ## Got a good `problem`? Maybe a sweet `solution`?
 Follow these steps to contribute your favorite solution in whatever language you love:
