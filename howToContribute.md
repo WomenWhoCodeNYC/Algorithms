@@ -1,4 +1,5 @@
 #Contribute to the WWCNYC Algorithms group!
+This repo and these events are created, crafted, and cared for by women identified coders like you. You should probable get involved, since I hear all the cool kids are doing it. 
 
 ## Things we LOVE:
 * `Free resources!` They go in our [main readme](./README.md)
