@@ -1,5 +1,6 @@
 # WWCNYC Algorithms Meetup
-This repository contains resources related to the monthly algorithms meetup. Here you can find all of the past problems and (ongoing) solutions for past Algorithms events. ** If you'd like to contribute to this repo or learn about volunteering checkout [How To Contribute](./howToContribute.md) **
+This repository contains resources related to the monthly algorithms meetup. Here you can find all of the past problems and (ongoing) solutions for past Algorithms events. 
+**If you'd like to contribute to this repo or learn about volunteering checkout [How To Contribute](./howToContribute.md)**
 
 See below for additional learning resources.
 
