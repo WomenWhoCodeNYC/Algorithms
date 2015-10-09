@@ -1,4 +1,4 @@
-## Share price
+## Egg boiler
 Problem originally found on [codewars](http://www.codewars.com/)
 
-Imagine after your first pay check from your first job as an amazing lady programmer, you invested a portion of it into some stock market shares. Now imagine that a few years later you want to see how much those shares are worth but for some bizarre reason you wanted to figure it out yourself with a list of days and the percentage change of the value of those share. How could you go about it?
+Imagine you run a restaurant, where the main specialty is a boiled egg. Your particular pot/stove set up allows you to boil up to 8 eggs every 5 minutes. If all of the attendees from tonight's meet up went to your restaurant at once after some awesome algorithm-ing, how could you determine how long it would take before the last person got their egg?

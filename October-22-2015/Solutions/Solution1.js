@@ -1,26 +1,18 @@
-// Javascript solution
-var sharePrice = function(invested, changes) {
-  var finalPrice = invested;
-  changes.forEach( function(percent) {
-    var change = finalPrice * percent * .01;
-    finalPrice += change;
-  });
-  return finalPrice;
-};
+// javascript solution
 
-// ES6 solution
-// sharePrice (invested, changes) => {
-//   var finalPrice = invested;
-//   changes.forEach((percent) => {
-//     var change = finalPrice * percent * .01;
-//     finalPrice += change;
-//   })
-//   return finalPrice
-// }
+function cookingTime(eggs) {
+  var time = 0;
+  while (eggs > 0) {
+    time += 5;
+    eggs -= 8;
+  }
+  return time;
+}
 
-//Tests
+// javascript tests
 
-console.log(sharePrice(100, [])===100);
-console.log(sharePrice(100, [-50, 50]) === 75);
-console.log(sharePrice(100, [-50, 100]) === 100);
-console.log(sharePrice(100, [-20, 30]) === 104);
+console.log(cookingTime(0) === 0 );
+
+console.log(cookingTime(5) === 0 );
+
+console.log(cookingTime(10) === 10);
