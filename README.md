@@ -17,3 +17,4 @@ See below for additional learning resources.
 ## Free resources for beginners
 - [Codecademy](http://codecademy.com)
 - [Codeschool](http://codeschool.com)
+- [FreeCodeCamp](http://www.freecodecamp.com/)
