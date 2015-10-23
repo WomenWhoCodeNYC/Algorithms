@@ -9,8 +9,8 @@ This repo and these events are curated, crafted, and cared for by woman-identifi
 * `Free resources!` They go in our [main readme](./README.md)
 
 ## Got a good `problem`? Maybe a sweet `solution`?
-Checkout our latest and greatest [GitGuide](./gitGuide.md) to walk you through submitting your first pull request with your contribution!.
-At the moment we generally structure and namespace our files like so, if you can try to do the same:
+Checkout our latest and greatest [GitGuide](./gitGuide.md) to walk you through submitting your first pull request with your contribution!
+Take note! At the moment we generally structure and namespace our files like so:
 ```
 Algorithms(top folder)
   -October-22-2015(Folder, named by the date of event)
@@ -19,6 +19,7 @@ Algorithms(top folder)
       -Problem1.js (solution files are named by problem number with different language extensions)
       -Problem1.rb
 ```
+It'd be cool if you can do the same. But if not we will work with what we got.
 
 ## New to git?
 Git and Github allow us to collaborate on projects without ever worrying about losing our work (or our minds). Think google docs but with better version control.
