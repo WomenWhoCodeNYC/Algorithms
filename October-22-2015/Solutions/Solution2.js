@@ -14,3 +14,10 @@ console.log(SeriesSum(1) === "1.00")
 console.log(SeriesSum(2) === "1.25")
 console.log(SeriesSum(3) === "1.39")
 console.log(SeriesSum(4) === "1.49")
+
+//Recursive javascript solution
+
+function SeriesSum(n) {
+    if(n === 0) return 1;
+    return ( (1 /(3*n + 1) ) + SeriesSum(n - 1) );
+}
