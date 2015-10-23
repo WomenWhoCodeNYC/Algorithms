@@ -35,4 +35,4 @@ From there, ensure that your pull request is to WomenWhoCodeNYC, and add a descr
 Wait a few days for some feedback. We may make suggestions on how to improve your code or how to submit things so that they match our current style guides. If so you'll see the feedback on your public pullrequest on the WomenWhoCodeNYC Algorithm's repo. Or we might choose to merge it as is!
 
 ## Step 8
-Pat yourself on the back, tweet about your amazing accomplishment, tell a friend to submit to, move on to bigger and better open source projects, and be sure to come to our Monthly Algorithms meet ups :)
+Pat yourself on the back, tweet about your amazing accomplishment, tell a friend to submit something, move on to bigger and better open source projects, and be sure to come to our Monthly Algorithms meet ups :)
