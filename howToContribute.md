@@ -10,6 +10,15 @@ This repo and these events are curated, crafted, and cared for by woman-identifi
 
 ## Got a good `problem`? Maybe a sweet `solution`?
 Checkout our latest and greatest [GitGuide](./gitGuide.md) to walk you through submitting your first pull request with your contribution!.
+At the moment we generally structure and namespace our files like so, if you can try to do the same:
+```
+Algorithms(top folder)
+  -October-22-2015(Folder, named by the date of event)
+    -Problem1.md (mark down files with descriptions of the problems with 1 being easiest)
+    -Solutions (Folder)
+      -Problem1.js (solution files are named by problem number with different language extensions)
+      -Problem1.rb
+```
 
 ## New to git?
 Git and Github allow us to collaborate on projects without ever worrying about losing our work (or our minds). Think google docs but with better version control.
