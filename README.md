@@ -19,3 +19,4 @@ See below for additional learning resources.
 - [Codecademy](http://codecademy.com)
 - [Codeschool](http://codeschool.com)
 - [FreeCodeCamp](http://www.freecodecamp.com/)
+- [CodeNewbie](http://www.codenewbie.org/)
