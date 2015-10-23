@@ -9,14 +9,7 @@ This repo and these events are curated, crafted, and cared for by woman-identifi
 * `Free resources!` They go in our [main readme](./README.md)
 
 ## Got a good `problem`? Maybe a sweet `solution`?
-Follow these steps to contribute your favorite solution in whatever language you love:
-
-1. Fork the repository and clone it locally
-2. Create a branch
-3. Add and commit your changes.
-4. Push that branch to your clone on github
-5. Make a pull request with your branch to the WWC branch
-6. Let one of the volunteers know that you made a PR and one of us will review it and merge it as soon as we can!
+Checkout our latest and greatest [GitGuide](./gitGuide.md) to walk you through submitting your first pull request with your contribution!.
 
 ## New to git?
 Git and Github allow us to collaborate on projects without ever worrying about losing our work (or our minds). Think google docs but with better version control.
