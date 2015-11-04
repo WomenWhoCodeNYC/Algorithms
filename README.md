@@ -14,8 +14,10 @@ See below for additional learning resources.
 - [RosettaCode](http://rosettacode.org/wiki/Rosetta_Code)
 - [CodeWars](http://www.codewars.com/)
 - [Project Euler](https://projecteuler.net/)
+- [Coderbyte] (http://coderbyte.com/)
 
 ## Free resources for beginners
+- [WomenWhoCodeNYC's big repo of amazing resources](https://github.com/WomenWhoCodeNYC/Resources)
 - [Codecademy](http://codecademy.com)
 - [Codeschool](http://codeschool.com)
 - [FreeCodeCamp](http://www.freecodecamp.com/)
