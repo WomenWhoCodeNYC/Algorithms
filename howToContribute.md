@@ -1,5 +1,5 @@
 #Contribute to the WWCNYC Algorithms group!
-This repo and these events are curated, crafted, and cared for by coders like you. We are actively looking for new contributors who identify as women, trans, or genderqueer. 
+This repo and these events are curated, crafted, and cared for by coders like you. We are actively looking for new contributors who identify as women, trans, or genderqueer, who can help share their knowledge of programming with others. If this sounds like you, read on!
 
 ## Things we LOVE:
 * `New problems!` They should be language agnostic, vary widely in difficulty, and should take between 5-20 minutes to complete. We aim to have about 6 problems per event, with level 1 being the easiest and level 6 being the hardest. If you submit a problem, please consider submitting one solution as well in either pseudo code or the language of your choice.
