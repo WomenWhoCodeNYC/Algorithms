@@ -20,16 +20,12 @@ def translate(word)
 end
 
 
-
-
-
 def pig_latin(str)
   result = str.split(" ").map { |word|
     translate(word)
     }.join(" ")
   result
 end
-
 
 p pig_latin("Quiet tree") =="Ietquay eetray"
 p pig_latin("apple quick Fox") == "appleway ickquay Oxfay"
