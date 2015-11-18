@@ -1,6 +1,5 @@
 def translate(word)
   change = false
-
   if word == word.capitalize
     word.downcase!
     change = true
@@ -17,6 +16,7 @@ def translate(word)
 
   word.capitalize! if change
   return word
+
 end
 
 
@@ -27,6 +27,6 @@ def pig_latin(str)
   result
 end
 
-p pig_latin("Quiet tree ") =="Ietquay eetray"
+p pig_latin("Quiet tree") =="Ietquay eetray"
 p pig_latin("apple quick Fox") == "appleway ickquay Oxfay"
 
