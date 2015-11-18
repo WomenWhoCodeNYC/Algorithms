@@ -1,9 +1,11 @@
 def translate(word)
   change = false
+
   if word == word.capitalize
     word.downcase!
     change = true
   end
+
   if (word[0] =~ /[aeiou]/)
     word = word + 'way'
   elsif word.include?('qu') && (word.index('qu') == 0)
@@ -12,9 +14,9 @@ def translate(word)
     idx = word.index(/[aeiou]/)
     word = word[idx..-1].concat(word[0...idx]).concat('ay')
   end
+
   word.capitalize! if change
   return word
-
 end
 
 def pig_latin(str)
