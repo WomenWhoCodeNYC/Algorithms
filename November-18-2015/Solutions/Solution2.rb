@@ -1,5 +1,6 @@
 def translate(word)
   change = false
+
   if word == word.capitalize
     word.downcase!
     change = true
@@ -16,7 +17,6 @@ def translate(word)
 
   word.capitalize! if change
   return word
-
 end
 
 
