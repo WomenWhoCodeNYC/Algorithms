@@ -1,8 +1,9 @@
-//////////////////////////////
-Aksana Kuzmitskaya 
-aksana.kuzmitskaya@gmail.com
-My solution using median between start, middle, and end numbers of the array, as a pivot.
-/////////////////////////////
+////////////////////////////////////////////////////////////
+//  Aksana Kuzmitskaya 
+//  aksana.kuzmitskaya@gmail.com
+//  My solution, using median between start, middle, 
+//  and end numbers of the array, as a pivot.
+////////////////////////////////////////////////////////////
 
 #include <iostream>
 #include <fstream>
