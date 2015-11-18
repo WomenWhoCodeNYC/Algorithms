@@ -29,3 +29,4 @@ end
 p pig_latin("Quiet tree") =="Ietquay eetray"
 p pig_latin("apple quick Fox") == "appleway ickquay Oxfay"
 
+
