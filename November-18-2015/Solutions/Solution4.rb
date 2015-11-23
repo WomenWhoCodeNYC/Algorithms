@@ -1,3 +1,4 @@
+
 class Node
   attr_accessor :value, :next
 
@@ -6,6 +7,7 @@ class Node
   end
 
 end
+
 
 class SingleLinkedList
 
@@ -35,7 +37,11 @@ class SingleLinkedList
       len += 1
     end
     if (len < n)
+<<<<<<< HEAD
       return "the length of linked list less then #{n}"
+=======
+      return "the length of lonked list less then #{n}"
+>>>>>>> add solution3
     end
     tmp = list.head
     (1...len-n+1).each do |i|
@@ -55,5 +61,9 @@ list.add_value(6)
 
 p list.find_node(list, 1) == 6
 p list.find_node(list, 3) == 9
+<<<<<<< HEAD
 p list.find_node(list, 6) == "the length of linked list less then 6"
 
+=======
+p list.find_node(list, 6) == "the length of linked list less then 6"
+>>>>>>> add solution3
