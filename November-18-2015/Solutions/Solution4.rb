@@ -26,7 +26,7 @@ class SingleLinkedList
       len += 1
     end
     if (len < n)
-      return "the length of lonked list less then #{n}"
+      return "the length of linked list less then #{n}"
     end
     tmp = list.head
     (1...len-n+1).each do |i|
