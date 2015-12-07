@@ -19,6 +19,7 @@ def translate(word)
   return word
 end
 
+
 def pig_latin(str)
   result = str.split(" ").map { |word|
     translate(word)
