@@ -1,4 +1,3 @@
-
 from copy import deepcopy
 
 # assumes denominations list is sorted from highest to lowest
@@ -24,22 +23,3 @@ def get_combinations(amount, denominations):
 
 print "get_combinations(4, [3, 2, 1]): ", get_combinations(4, [3, 2, 1])
 print "get_combinations(10, [5, 2, 1]): ", get_combinations(10, [5, 2, 1])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
