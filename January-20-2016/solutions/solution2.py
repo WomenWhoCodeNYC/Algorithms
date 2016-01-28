@@ -19,22 +19,22 @@ of ways to make 4¢:
 from functools import reduce
 import operator
 
-def coindenom(amount, coins):
+def coindenom(amount, dominations):
 	result = []
 	
-	def helper(pset, amount):
-		if amount == 0:
-			pset.sort()
-			if pset not in result:
-				result.append(pset)
-		else:
-			for c in coins:
-				if amount-c >= 0:
-					helper(pset+[c], amount-c)
+	def helper(pset, amount, coins):
+		
+		for i in range(len(coins)):
+			c = coins[i]
+			remain = amount - c
+			if remain == 0:
+				result.append(pset+[c])
+			elif remain > 0:
+				helper(pset+[c], remain, coins[i:])
 					
-	helper([], amount)
+	helper([], amount, dominations)
 	
 	return reduce(operator.add, result)
 	
-res = coindenom(4, [1,2,3])
-print(res)
+print(coindenom(4, [1,2,3]))
+print(coindenom(10, [1,2,5]))
