@@ -1,4 +1,5 @@
 /************************************
+ 	Aksana Kuzmitskaya
 	aksana.kuzmitskaya@gmail.com
 ************************************/
 
