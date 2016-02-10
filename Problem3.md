@@ -1,4 +1,4 @@
-# Interconvert strings and integers
+## Interconvert strings and integers
 
 A string is a sequence of characters. 
 A string may encode an integer, e.g., "-987" encodes 987.
