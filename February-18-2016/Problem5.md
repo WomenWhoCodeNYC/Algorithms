@@ -1,4 +1,4 @@
-## How could you determine if a linked list was circular or has a cycle?
+## How could you determine if a [linked list](https://en.wikipedia.org/wiki/Linked_list) was circular or has a cycle?
 
 ```
 x - x - x - x
