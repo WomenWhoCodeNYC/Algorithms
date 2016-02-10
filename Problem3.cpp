@@ -55,8 +55,8 @@ int main() {
 		std::boolalpha << ( intToString(n) == std::to_string(n) ) << std::endl;
 		++index;
 	}
-    std::vector< std::string > strsToTest { "0", "-129", "5679", "2" };
-    index = 1;
+	std::vector< std::string > strsToTest { "0", "-129", "5679", "2" };
+	index = 1;
 	for ( auto n : strsToTest ) {
 		std::cout << "Test string " << index << " --> " <<
 		std::boolalpha << ( stringToInt(n) == std::stoi(n) ) << std::endl;
