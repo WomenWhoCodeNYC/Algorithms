@@ -8,8 +8,8 @@ var nodeFoo = {
 
 function hasloop(startNode) {
     //create two pointers, a tortoise and a hare
-    var hare = startNode.next().next();
-    var tortoise = startnode.next();
+    var tortoise = startNode.next();
+    var hare = tortoise.next();
     //while there is somewhere to travel to along your linked list
     while(hare !== null) {
         //check if they are equal
