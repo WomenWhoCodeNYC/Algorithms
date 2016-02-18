@@ -1,5 +1,5 @@
 Create a [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 
-With a Caesar Cipher you are giving a key (say the number 3) and all of the letters of the alphabet rotate that many number of spaces over. Create two functions that use the Caesar cipher, an encrypter and decrypter.
+With a Caesar Cipher you are giving a key (say the number 3) and all of the letters of the alphabet rotate that many number of spaces over. Can you create a function that can encrypt/decrypt a message using the ceasar cipher?
 
-Bonus points for creating a decrypter than can decrypt caesar's cipher without a key.
+Extreme bonus points for creating a decrypter than can decrypt caesar's cipher without a key.
