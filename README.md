@@ -24,3 +24,4 @@ See below for additional learning resources.
 - [Codeschool](http://codeschool.com)
 - [FreeCodeCamp](http://www.freecodecamp.com/)
 - [CodeNewbie](http://www.codenewbie.org/)
+- [Khan Academy](https://www.khanacademy.org/computing)
