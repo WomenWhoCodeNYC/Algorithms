@@ -25,7 +25,7 @@ It'd be cool if you can do the same. But if not we will work with what we got.
 Git and Github allow us to collaborate on projects without ever worrying about losing our work (or our minds). Think google docs but with better version control.
 
 To get started here are a few free tutorials/readings:
-* **[GitGuide](./gitGuide.md)** (this will walk you through a pull request to our repo)
+* **[WWCNYC's GitGuide](./gitGuide.md)** (this will walk you through a pull request to our repo)
 * [Try Git](https://try.github.io/levels/1/challenges/1)
 * [Github Guides](https://guides.github.com/)
 * [Git Guide](http://rogerdudler.github.io/git-guide/)
