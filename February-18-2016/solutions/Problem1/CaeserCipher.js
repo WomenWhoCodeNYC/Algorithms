@@ -1,3 +1,6 @@
+/*github: @JuiceCrawl, @ashes74, @Junkyard4000, @RyanFairist, @si74, @jes_andra*/
+
+
 function getNewCode(code,key){
     var result;
 	if (code >= 97 && code <= 122){
