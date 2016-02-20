@@ -5,4 +5,4 @@ function double(num)
     return answer
 ```
 
-submitted by seemaullal
+Submitted by [KamillaKhabibrakhmanova](https://github.com/KamillaKhabibrakhmanova)

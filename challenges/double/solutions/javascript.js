@@ -3,4 +3,4 @@ var double = function(n) {
 	return answer;
 }
 
-//submitted by KamillaKhabibrakhmanova
+// Submitted by [KamillaKhabibrakhmanova](https://github.com/KamillaKhabibrakhmanova)

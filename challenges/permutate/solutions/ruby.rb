@@ -18,15 +18,15 @@ def permutate(str)
   return false if str.nil?
   return false unless str.is_a? String
   return false unless str.length == 3
-  
+
   #STEP2
   def combinations(str)
-    perms = str.split(//).permutation.to_a 
+    perms = str.split(//).permutation.to_a
     result = []
     perms.each {|perm| result << perm.join(',').gsub(',','')}
     return result
   end
-  
+
   #STEP3
   perms = combinations(str)
   return perms
@@ -43,3 +43,5 @@ questions = [
 questions.each do |q|
   permutate(q[0]) == q[1] ?  (puts 'Correct!'): (puts 'Wrong')
 end
+
+#submitted by [Dushyanthi Pierish](https://github.com/dushi27)

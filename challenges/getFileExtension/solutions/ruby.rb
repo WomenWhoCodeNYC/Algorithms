@@ -32,3 +32,5 @@ questions = [
 questions.each do |q|
   getFileExtension(q[0]) == q[1] ?  (puts 'Correct!'): (puts 'Wrong')
 end
+
+#submitted by [Dushyanthi Pierish](https://github.com/dushi27)

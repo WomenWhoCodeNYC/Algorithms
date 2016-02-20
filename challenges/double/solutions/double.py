@@ -10,4 +10,4 @@ def double(number):
 #print double(19)
 #print double("fr")
 
-## submitted by jungjung917
+## submitted by [jungjung917](https://github.com/jungjung917)

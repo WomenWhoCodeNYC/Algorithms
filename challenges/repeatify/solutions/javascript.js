@@ -6,3 +6,5 @@ function repeatify(str, num) {
     //string will be inserted in each space (resulting in the repeated string we want)
     return Array(num+1).join(str);
 }
+
+submitted by [seemaullal](https://github.com/seemaullal)

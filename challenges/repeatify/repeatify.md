@@ -5,3 +5,5 @@ Create a function called repeatify that takes in two arguments as the input - a 
 Example: repeatify('hello',3) should return 'hellohellohello'.
 
 Extension: Write the function without using a 'for' loop
+
+Submitted by [KamillaKhabibrakhmanova](https://github.com/KamillaKhabibrakhmanova)

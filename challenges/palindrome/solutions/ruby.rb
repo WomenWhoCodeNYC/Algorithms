@@ -24,19 +24,19 @@ STEP 5: return results based on maches
 #ANSWER
 def isPalindrome(str)
   #STEP 1,2
-  def validate(str) 
-    return nil if str.nil? 
+  def validate(str)
+    return nil if str.nil?
     return nil if !str.is_a? String
     return nil if str.length <= 0
     str.gsub(' ', '').downcase
   end
-  
+
   #STEP 3
   clean_string = validate(str)
   return nil if clean_string.nil?
-  $i = (clean_string.length/2) 
+  $i = (clean_string.length/2)
   $counter = 0
-  
+
   #STEP 4
   def matched(data)
     return result = true if $counter == $i
@@ -44,7 +44,7 @@ def isPalindrome(str)
     $counter += 1
     matched(data)
   end
-  
+
   #STEP 5
   clean_string ? (return matched(clean_string)): (return nil)
 end
@@ -64,3 +64,5 @@ questions = [
 questions.each do |q|
   isPalindrome(q[0]) == q[1] ?  (puts 'Correct!'): (puts 'Wrong')
 end
+
+#submitted by [Dushyanthi Pierish](https://github.com/dushi27)

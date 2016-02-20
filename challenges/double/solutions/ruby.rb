@@ -38,4 +38,4 @@ problems.each do |problem|
   end
 end
 
-#submitted by Dushyanthi Pieris
+#submitted by [Dushyanthi Pierish](https://github.com/dushi27)

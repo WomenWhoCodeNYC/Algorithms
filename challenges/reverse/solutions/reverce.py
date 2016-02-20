@@ -11,3 +11,6 @@ def reverse(inputDict):
 #object2 = {'a':'1','b':'2','c':'1','d':'3'}
 #print reverse(object1)
 #print reverse(object2)
+
+
+## submitted by [jungjung917](https://github.com/jungjung917)

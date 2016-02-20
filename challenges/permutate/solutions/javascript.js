@@ -1,6 +1,6 @@
 function permutation(inputStr){
   var results = [];
- 
+
   var inputArr = inputStr.split('');
   function permute(arr, memo) {
     var cur, memo = memo || [];
@@ -20,3 +20,5 @@ function permutation(inputStr){
 
   return permute(inputArr);
 }
+
+// submitted by [Karen J. Mao](https://github.com/mikuya707)

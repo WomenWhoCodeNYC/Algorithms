@@ -5,3 +5,5 @@ Create a function called isPalindrome() that returns true or false depending on 
 A palindrome is a string of letters that can be read the same backward and forward. An example is 'Taco cat'.
 
 Extension: Make the function recursive.
+
+Submitted by [KamillaKhabibrakhmanova](https://github.com/KamillaKhabibrakhmanova)

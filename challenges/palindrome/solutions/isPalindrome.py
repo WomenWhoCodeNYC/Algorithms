@@ -11,10 +11,11 @@ def isPalindrome(string):
         return True
     elif string[0].lower() != string[len(string)-1].lower() :
         return False
-    else: 
+    else:
         return isPalindrome(string[1:len(string)-1])
-        
+
 #print isPalindrome("Taco cat")
 #print isPalindrome("ABSDDSA")
-    
 
+
+## submitted by [jungjung917](https://github.com/jungjung917)

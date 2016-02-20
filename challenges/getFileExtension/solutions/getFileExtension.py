@@ -13,3 +13,5 @@ def getFileExtension(filename):
 
 #print getFileExtension("my.resume.updated.pdf")
 #print getFileExtension("resume")
+
+## submitted by [jungjung917](https://github.com/jungjung917)

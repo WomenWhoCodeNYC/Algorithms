@@ -13,3 +13,5 @@ function reverse(obj) {
    }
    return newObj;
 }
+
+submitted by [seemaullal](https://github.com/seemaullal)

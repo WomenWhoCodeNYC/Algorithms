@@ -39,3 +39,5 @@ console.log('aba', isPalindromeRecursive('aba'));
 console.log('abat', isPalindromeRecursive('abat'));
 console.log('ababa', isPalindromeRecursive('ababa'));
 console.log('aa a', isPalindromeRecursive('aa a'));
+
+// Submitted by [Sarah Zinger](https://github.com/sarahzinger)

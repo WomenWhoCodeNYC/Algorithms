@@ -19,3 +19,5 @@ inputObject2 = {
     "2": ["b"]
     "3": ["d"]
 }
+
+Submitted by [KamillaKhabibrakhmanova](https://github.com/KamillaKhabibrakhmanova)
