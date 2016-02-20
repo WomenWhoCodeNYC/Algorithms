@@ -10,4 +10,5 @@ def timesforfinalclose(times):
     return array_Init
 
 print timesforfinalclose(100)
-    
+
+## submitted by [jungjung917](https://github.com/jungjung917)

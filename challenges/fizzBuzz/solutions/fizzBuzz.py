@@ -3,11 +3,12 @@ def FizzBuzz():
         if (i % 3 == 0):
 	    if(i % 5 == 0 ):
 	        print "FizzBuzz"
-	    else: 
+	    else:
 	        print "Fizz"
-	else: 
+	else:
 	    if(i % 5 == 0):
 	        print "Buzz"
 
 FizzBuzz()
 
+## submitted by [jungjung917](https://github.com/jungjung917)

@@ -6,3 +6,5 @@ For numbers which are multiples of both three and five print "FizzBuzz".
 
 ## Source
 As seen in many many places, but this time was borrowed from here: http://rosettacode.org/wiki/FizzBuzz
+
+submitted by [seemaullal](https://github.com/seemaullal)
