@@ -2,9 +2,9 @@
 This repo and these events are curated, crafted, and cared for by coders like you. We are actively looking for new contributors who identify as women, trans, or genderqueer, who can help share their knowledge of programming with others. If this sounds like you, read on!
 
 ## Things we LOVE:
-* `New problems!` They should be language agnostic, vary widely in difficulty, and should take between 5-20 minutes to complete. We aim to have about 6 problems per event, with level 1 being the easiest and level 6 being the hardest. If you submit a problem, please consider submitting one solution as well in either pseudo code or the language of your choice.
+* `New problems!` They should be language agnostic, vary widely in difficulty, and should take between 5-20 minutes to complete. We aim to have about 6 problems per event, with level 1 being the easiest and level 6 being the hardest. If you submit a problem, please consider submitting one solution as well in either pseudo code or the language of your choice. Consider adding your estimation of difficulty if you'd like.
 * `New solutions!` We accept all levels of optimization and all languages. Consider adding tests for bonus points :)
-* `Presenters!` Do you have a 5-10 minute talk that could help someone ace their next interview or come one step closer to mastering algorithms more generally? Talk to one of our volunteers and pitch us your idea.
+* `Presenters!` Do you have a 5-15 minute talk that could help someone ace their next interview or come one step closer to mastering algorithms or data structures more generally? Talk to one of our volunteers and pitch us your idea.
 * `Tutors` and `in person volunteers!` We need folks to do everything from help people check in, to find the bathroom, to tutoring and supporting our fellow coders. If one of those roles sounds exciting to you, talk to a volunteer!
 * `Free resources!` They go in our [main readme](./README.md)
 
@@ -13,11 +13,13 @@ Checkout our latest and greatest **[GitGuide](./gitGuide.md)** to walk you throu
 Take note! At the moment we generally structure and namespace our files like so:
 ```
 Algorithms(top folder)
-  -October-22-2015(Folder, named by the date of event)
-    -Problem1.md (mark down files with descriptions of the problems with 1 being easiest)
-    -Solutions (Folder)
-      -Problem1.js (solution files are named by problem number with different language extensions)
-      -Problem1.rb
+    -challenges
+        -nameOfNewProblem
+            -nameOfNewProblem.md (mark down files with descriptions of the problems with 1 being easiest)
+            -solutions (Folder)
+                -nameOfNewProblem.js (solution files are named by problem number with different language extensions)
+                -nameOfNewProblem.rb
+    Event-date.md (contains links to particular problems)
 ```
 It'd be cool if you can do the same. But if not we will work with what we got.
 

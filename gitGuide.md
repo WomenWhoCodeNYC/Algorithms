@@ -14,11 +14,11 @@ From the command line make a local clone with that copied link.
 ![clone2](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/images/clone2.png?raw=true)
 
 ## Step 4
-`cd` into the repo, make a new branch, and start writing some code
+`cd` into the repo, make a new branch (call it anything you'd like), and start writing some code
 ![branch](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/images/branch.png?raw=true)
 
 #### Random Note
-`atom .` is a shortcut I use to open my text editor, you might use `subl` to open sublime or some other way of opening the repository. 
+`atom .` is a shortcut I use to open my text editor, you might use `subl` to open sublime or some other way of opening the repository.
 
 ## Step 5
 When you've added your problems and solutions and are ready to share them: add, commit, and push your changes
