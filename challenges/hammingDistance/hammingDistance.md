@@ -21,3 +21,4 @@ Write a function that prints the Hamming Distance between the two strings. Print
 * For the second test case, the length of strings is not equal. So ans=-1.
 
 Source: https://www.hackerrank.com/contests/code-clash-2015/challenges/hamming-distance-1
+submitted by [Stefania Druga](https://github.com/stefania11)

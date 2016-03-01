@@ -9,3 +9,5 @@ puts sum_series(2)==1.25
 puts sum_series(3)==1.393
 puts sum_series(4)==1.493
 puts sum_series(5)==1.57
+
+#submitted by https://github.com/leahgoldberg

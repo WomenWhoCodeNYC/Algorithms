@@ -22,9 +22,10 @@ int main()
 {
   // example of dictionary
   std::set<std::string> dictionary = {"this", "is", "a", "fun", "problem"};
-  std::string words;     
+  std::string words;
   std::cout<<"Please, provide a string"<<std::endl;
   std::cin>>words;
   std::string result = GetSentence(dictionary, words);
   std::cout<<result<<std::endl;
 }
+//submitted by https://github.com/AksanaKuzmitskaya

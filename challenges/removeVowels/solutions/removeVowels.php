@@ -1,4 +1,5 @@
 <?php
+//submitted by https://github.com/swhinnem
 
 function devowelize($string) {
     // Set up the new string that we will return minus the vowels

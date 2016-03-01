@@ -7,9 +7,11 @@ Write a function to find the 2nd largest element in a binary search tree:
 *A binary search tree is a binary tree in which, for each node:
 
 -The node's value is greater than all values in the left subtree.
--The node's value is less than all values in the right subtree. BSTs are useful for 
-quick lookups. If the tree is balanced, we can search for a given value in the tree 
+-The node's value is less than all values in the right subtree. BSTs are useful for
+quick lookups. If the tree is balanced, we can search for a given value in the tree
 in O(lgn) time.*
+
+submitted by: https://github.com/mmeric
 """
 
 class Node:
@@ -19,17 +21,17 @@ class Node:
 		self.right = right
 	def __str__(self):
 		return str(self.val)
-		
+
 class tree:
 	def __init__(self):
 		self.root = None
-		
+
 	def add(self, val):
 		if self.root:
 			self._add(self.root, val)
 		else:
 			self.root = Node(val)
-			
+
 	def _add(self, node, val):
 		if val <= node.val:
 			if node.left:
@@ -41,21 +43,21 @@ class tree:
 				self._add(node.right, val)
 			else:
 				node.right = Node(val)
-			
+
 	def printTree(self):
 		if self.root:
 			self._printTree(self.root)
-			
+
 	def _printTree(self, node):
 		if node:
 			self._printTree(node.left)
 			print(node)
 			self._printTree(node.right)
-	
+
 	def find_2nd_largest(self):
 		if self.root:
 			return self._find2nd(self.root)
-			
+
 	def _find2nd(self, node):
 		last = None
 		if node.right:
@@ -67,24 +69,24 @@ class tree:
 		elif node.left:
 			last = self._find1st(node.left)
 		return last
-		
+
 	def _find1st(self, node):
 		last = node
 		while last.right:
 			last = last.right
 		return last
-	
+
 def test(data):
 	t = tree()
 	for i in data:
 		t.add(i)
-		
+
 	print("input data: %s, n = %s" % (data,len(data)))
 	print("Print the Tree:")
 	t.printTree()
 	print("get the second largest: ")
 	print(t.find_2nd_largest())
-	
+
 if __name__ == "__main__":
 	d1 = [1, 7, 9, 2, 8]
 	d2 = [6, 8, 5, 2, 7, 0 , 1, 9]

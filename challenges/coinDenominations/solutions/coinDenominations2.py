@@ -15,3 +15,5 @@ def coin_combos (amount, coins):
 
 
 coin_combos(8, [4, 2, 1]) # should output 9
+
+## submitted by https://github.com/emschuch

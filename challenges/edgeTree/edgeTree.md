@@ -38,3 +38,5 @@ Original tree:
 
 Decomposed tree:
 ![Image of Decomposed tree](http://linode.interviewstreet.com/eventree2.png)
+
+submitted by [Stefania Druga](https://github.com/stefania11)

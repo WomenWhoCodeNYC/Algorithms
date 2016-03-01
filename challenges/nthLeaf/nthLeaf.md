@@ -31,12 +31,10 @@ get_nth_leaf(tree, 5)
 
 ## Notes
 1. To make the problem more challenging, define the node interface as well.
-2. Optimal runtime is linear. If you have a quadratic solution, try to refine it to linear. 
+2. Optimal runtime is linear. If you have a quadratic solution, try to refine it to linear.
 3. If you return an array containing all leaves and then index into it., try to use less memory.
 4. There are decent recursive solutions, but the iterative solution is unintuitively cleaner.
-5. How would you test this? 
+5. How would you test this?
 (Think about all cases- edge cases, negatives, etc.)
 
-
-
-
+submitted by [seemaullal](https://github.com/seemaullal)

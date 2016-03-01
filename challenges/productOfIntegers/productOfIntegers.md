@@ -18,3 +18,5 @@ by calculating:
 
 
 **Do not use division in your solution.**
+
+submitted by [Iuliia Kotlenko](https://github.com/IuliiaKot)

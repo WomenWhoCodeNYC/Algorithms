@@ -15,10 +15,10 @@ function pig_latin_translator(words) {
 				}
 			}
 		}
-		
+
 		start = word.substring(index, word.length);
 		end = word.substring(0, index) + "ay";
-		
+
 		resultArray.push( start + end );
 	});
 
@@ -26,3 +26,5 @@ function pig_latin_translator(words) {
 }
 
 pig_latin_translator("the quick brown fox"); // return 'ethay ickquay ownbray oxfay'
+
+submitted by [lei-clearsky](https://github.com/lei-clearsky)

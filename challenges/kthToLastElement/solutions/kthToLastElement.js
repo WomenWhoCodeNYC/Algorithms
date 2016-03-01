@@ -27,13 +27,13 @@ LinkedList.prototype.addToHead = function(el) {
 
 function nthToLast(sll, k){
     //handle, 0 or negative value of k
-    if (k <= 0) 
+    if (k <= 0)
         return null;
-    
+
     // Create two pointers both point to head
     var pointer1 = sll.head;
     var pointer2 = sll.head;
-    
+
     // Move pointer2 forward k nodes into the list.
     for (var i = 0; i < k - 1; i ++) {
         if (pointer2 === null) return null;
@@ -49,7 +49,7 @@ function nthToLast(sll, k){
         pointer1 = pointer1.next;
         pointer2 = pointer2.next;
     }
-    
+
    return pointer1;
 }
 
@@ -65,3 +65,5 @@ console.log('sll ', sll);
 console.log(nthToLast(sll, 1)); //Object {data: 5, next: null}
 console.log(nthToLast(sll, 2)); //Object {data: 4, next: Object}
 console.log(nthToLast(sll, 3)); //Object {data: 3, next: Object}
+
+//submitted by lei-clearsky: https://github.com/lei-clearsky

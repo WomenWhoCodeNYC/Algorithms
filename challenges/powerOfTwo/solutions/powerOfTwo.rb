@@ -21,3 +21,4 @@ p power_of_two?(4) == true
 p power_of_two?(5) == false
 p power_of_two?(12) == false
 
+#submitted by [Iuliia Kotlenko](https://github.com/IuliiaKot)

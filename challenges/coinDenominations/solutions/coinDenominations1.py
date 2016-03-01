@@ -2,6 +2,8 @@ from copy import deepcopy
 
 # assumes denominations list is sorted from highest to lowest
 # uses python2.7
+
+# submitted by https://github.com/stroy1
 def get_combinations(amount, denominations):
 	total = 0
 

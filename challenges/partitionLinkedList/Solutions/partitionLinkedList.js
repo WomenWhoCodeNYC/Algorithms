@@ -29,13 +29,13 @@ function partition(node, x) {
     var smallTail = null;
     var largeHead = null;
     var largeTail = null;
-    
+
     // traverse the linkedlist from the head node
     // add the node to small linkedlist if the node's data is less than x
     // add the node to large linkedlist if the node's data is larger than or equal to x
     while(node !== null) {
         var next = node.next;
-        
+
         if (node.data < x) {
             if (smallHead === null) {
                 smallHead = smallTail = node;
@@ -55,11 +55,11 @@ function partition(node, x) {
         }
         node = next;
     }
-    
+
     // merge two linkedlist
     if (smallHead) {
         smallTail.next = largeHead;
-        return smallHead;   
+        return smallHead;
     } else {
         return largeHead;
     }
@@ -72,7 +72,9 @@ sll.addToHead(17);
 sll.addToHead(2);
 sll.addToHead(8);
 sll.addToHead(35);
-console.log('sll ', sll); // 35, 8, 2, 17, 3 
+console.log('sll ', sll); // 35, 8, 2, 17, 3
 console.log('after partition: ', partition(sll.head, 9)); // 8, 2, 3, 35, 17
 console.log('after partition: ', partition(sll.head, 1)); // 35, 8, 2, 17, 3
 console.log('after partition: ', partition(sll.head, 36)); // 35, 8, 2, 17, 3
+
+//submitted by [lei-clearsky](https://github.com/lei-clearsky)

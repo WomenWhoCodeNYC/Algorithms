@@ -29,6 +29,9 @@ var matrix = [
 ];
 diagonalSum(matrix) //will return 180 (6 * 2 * 1 * 3 * 5)
 ```
+submitted by [seemaullal](https://github.com/seemaullal)
+
+
 
 Ruby
 ```
@@ -42,3 +45,5 @@ def get_diagonal_product(matrix)
   product
 end
 ```
+
+submitted by [Nora](https://github.com/noralincc)

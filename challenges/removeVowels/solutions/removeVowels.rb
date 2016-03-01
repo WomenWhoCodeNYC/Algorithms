@@ -22,23 +22,25 @@ PSUDO__________________
       return the str
     end
 
-*Assume ASCII Char Set, but if necessary Latin characters can be added 
+*Assume ASCII Char Set, but if necessary Latin characters can be added
+
+submitted by https://github.com/dushi27
 =end
 
-def vowle_remover(str)    
+def vowle_remover(str)
     #str = string
-    
+
     #Validations
     return nil unless str.is_a? String
-    
+
     #Init a list of vowles. Add Latin chars if necessary
-    vows = ['a', 'e','i','o','u', 'A','E','I','O', 'U'] 
-   
+    vows = ['a', 'e','i','o','u', 'A','E','I','O', 'U']
+
     vows.each do |v|
-       str = str.gsub("#{v}", '') 
+       str = str.gsub("#{v}", '')
     end
-   
-    return str    
+
+    return str
 end
 
 # TEST_________
@@ -46,7 +48,7 @@ examples = {:a => ['string', 'strng'], :b => ['',''] , :c =>[ 'efes_',  'fs_'], 
 
 examples.each do |k, v|
     result = vowle_remover v.first
-    if result == v.last 
+    if result == v.last
         accuracy = 'correct'
     else
         accuracy = 'incorrect'
@@ -56,8 +58,8 @@ end
 
 =begin
 TEST returns;
-result for a is strng and its correct     
-result for b is  and its correct   
-result for c is fs_ and its correct 
-result for d is bbbbbbbbbbbbbbbbbbbb and its correct 
-=end  
+result for a is strng and its correct
+result for b is  and its correct
+result for c is fs_ and its correct
+result for d is bbbbbbbbbbbbbbbbbbbb and its correct
+=end

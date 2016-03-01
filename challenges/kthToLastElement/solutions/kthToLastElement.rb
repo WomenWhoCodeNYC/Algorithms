@@ -1,3 +1,4 @@
+#submitted by [Iuliia Kotlenko](https://github.com/IuliiaKot)
 
 class Node
   attr_accessor :value, :next

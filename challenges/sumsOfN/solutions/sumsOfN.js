@@ -24,3 +24,5 @@ function printPartitions(n) {
     generatePartitions(n,n,"");
     return partitions
 }
+
+//submitted by [seemaullal](https://github.com/seemaullal)

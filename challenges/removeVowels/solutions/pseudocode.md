@@ -19,7 +19,7 @@ function removeVowels(str) {
     return tmpStr;
 }
 ```
-
+submitted by https://github.com/seemaullal
 
 Ruby
 ```
@@ -27,3 +27,4 @@ Ruby
    str.is_a?(String) ? str.delete!('aeiouAEIOU') : str
   end
 ```
+submitted by https://github.com/noralincc

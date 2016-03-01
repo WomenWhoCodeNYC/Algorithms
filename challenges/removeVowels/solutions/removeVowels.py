@@ -4,9 +4,11 @@ def removeVowels(inputstring):
 	if inputstring[i] in vowels:
 	    if  i == 0:
 	    	return removeVowels(inputstring[i+1:])
-	    else: 
+	    else:
 	        return removeVowels(inputstring[:i]+inputstring[i+1:])
-	
-    return inputstring	
-    
+
+    return inputstring
+
 print removeVowels("isntfdo")
+
+#submitted by https://github.com/jungjung917

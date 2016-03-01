@@ -1,9 +1,10 @@
-// Javascript Solution
-// MinStack.prototype = new Stack(); //inheritance
-// MinStack.prototype.constructor = MinStack;
-// function MinStack() {
-//     this.minStack = new Stack();
-// }
+Javascript Solution
+```javascript
+MinStack.prototype = new Stack(); //inheritance
+MinStack.prototype.constructor = MinStack;
+function MinStack() {
+    this.minStack = new Stack();
+}
 
 MinStack.prototype.push = function(val) {
     var newNode = new Node(val);
@@ -63,3 +64,4 @@ function Node(val,next) {
 }
 
 ```
+submitted by [seemaullal](https://github.com/seemaullal)

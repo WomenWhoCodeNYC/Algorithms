@@ -21,3 +21,5 @@ function SeriesSum(n) {
     if(n === 0) return 1;
     return ( (1 /(3*n + 1) ) + SeriesSum(n - 1) );
 }
+
+// submitted by https://github.com/kikoorikoo

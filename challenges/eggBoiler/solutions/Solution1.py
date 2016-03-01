@@ -6,3 +6,5 @@ def find_time(num_people):
 #print find_time(1)
 #print find_time(8)
 #print find_time(10)
+
+## submitted by [jungjung917](https://github.com/jungjung917)
