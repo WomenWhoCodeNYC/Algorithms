@@ -4,9 +4,9 @@
 function getNewCode(code,key){
     var result;
 	if (code >= 97 && code <= 122){
-        result = ((code + key - 96) % 26) + 96; 
+        result = ((code + key - 96) % 26) + 96;
     }else if(code >= 65 && code <= 90){
-        result = ((code + key - 64) % 26) + 64;   
+        result = ((code + key - 64) % 26) + 64;
     }else{
         result = code;
     }
