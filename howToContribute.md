@@ -12,14 +12,22 @@ This repo and these events are curated, crafted, and cared for by coders like yo
 Checkout our latest and greatest **[GitGuide](./gitGuide.md)** to walk you through submitting your first pull request with your contribution!
 Take note! At the moment we generally structure and namespace our files like so:
 ```
-Algorithms(top folder)
-    -challenges
-        -nameOfNewProblem
-            -nameOfNewProblem.md (mark down files with descriptions of the problems with 1 being easiest)
-            -solutions (Folder)
-                -nameOfNewProblem.js (solution files are named by problem number with different language extensions)
-                -nameOfNewProblem.rb
-    Event-date.md (contains links to particular problems)
+├── Algorithms (top folder)	
+			├── Day-Month-Year.md (event of algothm event)
+			├── Day-Month-Year.md
+			├── Day-Month-Year.md
+			├── UnusedProblems
+			├── challenges
+			│   ├── NameOfProblem
+			│   │   ├── NameOfProblem.md (description of the problem)
+			│   │   └── solutions (folder)
+			│   │       ├── NameOfProblem.js
+			│   │       ├── NameOfProblem.py
+			│   │       └── NameOfProblem.py
+					|					... any other solution formats
+					├──(Make new folders for problems you are adding!)
+			├── gitGuide.md
+			├── howToContribute.md
 ```
 It'd be cool if you can do the same. But if not we will work with what we got.
 
