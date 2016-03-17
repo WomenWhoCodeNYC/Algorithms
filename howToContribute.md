@@ -13,7 +13,7 @@ Checkout our latest and greatest **[GitGuide](./gitGuide.md)** to walk you throu
 Take note! At the moment we generally structure and namespace our files like so:
 ```
 ├── Algorithms (top folder)	
-			├── Day-Month-Year.md (event of algothm event)
+			├── Day-Month-Year.md (date of algorithm event)
 			├── Day-Month-Year.md
 			├── Day-Month-Year.md
 			├── UnusedProblems
@@ -23,7 +23,7 @@ Take note! At the moment we generally structure and namespace our files like so:
 			│   │   └── solutions (folder)
 			│   │       ├── NameOfProblem.js
 			│   │       ├── NameOfProblem.py
-			│   │       └── NameOfProblem.py
+			│   │       └── NameOfProblem.cpp
 					|					... any other solution formats
 					├──(Make new folders for problems you are adding!)
 			├── gitGuide.md
