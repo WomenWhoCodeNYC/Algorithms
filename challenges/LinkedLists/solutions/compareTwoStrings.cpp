@@ -5,8 +5,8 @@ using namespace std;
 //  Linked list Node is defined as 
 struct Node  
 {
-  char c;
-  struct Node *next;
+    char c;
+    struct Node *next;
 };
   
 // Function to create newNode in a linkedlist
