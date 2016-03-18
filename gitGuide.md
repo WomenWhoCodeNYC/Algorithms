@@ -1,5 +1,7 @@
 # GitGuide
-Want to submit a pull request to this repo but a little unsure how to do it? Don't worry. We've got you covered with our GitGuide!
+Want to submit a pull request to this repo but a little unsure how to do it? Don't worry. We've got you covered with our GitGuide! 
+
+Troubleshooting: Are you running into problems after doing these steps successfully in the past? Your forked repo is probably out of sync with this current repo. You've got two options! The bruteforce way is to delete your old forked repository and start this process over again. The better solution is to [specify a new remote repository](https://help.github.com/articles/configuring-a-remote-for-a-fork/) and pull from there.
 
 ## Step 1
 Fork the repo
