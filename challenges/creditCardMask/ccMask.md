@@ -15,4 +15,5 @@ maskify("Skippy") == "##ippy"
 
 
 Source: [CodeWars](http://www.codewars.com/kata/credit-card-mask/javascript)
+
 submitted by [Kate Shishkina](https://github.com/shishkina)

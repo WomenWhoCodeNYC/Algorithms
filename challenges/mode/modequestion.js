@@ -6,18 +6,6 @@
 function SimpleMode(arr) {
 
   // code goes here
-  var mode = 0;
-  var occurArray = [];
-
-    for (var i = 0; i < arr.length; i++){
-      for(var j = 1; j < i; j++){
-        if()
-      }
-
-
-
-    }
-
   return mode;
 }
 
