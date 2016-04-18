@@ -23,6 +23,4 @@ list1 = g->e->e->k->s->a
 list2 = g->e->e->k->s->b  
 Output: -1
 
-
-
-
+submitted by https://github.com/ayunav
