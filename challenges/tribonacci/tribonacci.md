@@ -6,9 +6,9 @@ Tribonacci takes a "signature" or starting array of numbers. Different signature
 will generate different sequences.
 
 For example. If the starting signature was [1, 1, 1] the resulting sequence would be
-[1,1,1,3,5,9,17,31,...]
+`[1,1,1,3,5,9,17,31,...]`
 but if the signature was [0,0,1] it would be
-[0,0,1,1,2,4,7,13,24,...]
+`[0,0,1,1,2,4,7,13,24,...]`
 
 Write a function that takes as it's argument a signature and an "N" and return the
 first n elements (including the signature)
