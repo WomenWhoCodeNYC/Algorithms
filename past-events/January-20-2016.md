@@ -9,11 +9,11 @@ Presenter:
 Stefania Druga, founder of HacKIDemia, an organization that designs robotics and maker workshops for kids all over the world, and recent Flatironschool Web Development graduate You may have already met her at some of her hardware workshops for Women Who Code or running around at other hackathons.
 
 
-### Problem 1 - [productOfIntegers](challenges/productOfIntegers/productOfIntegers.md)
-### Problem 2 - [coinDenominations](challenges/coinDenominations/coinDenominations.md)
-### Problem 3 - [2ndLargestInBST](challenges/2ndLargestInBST/2ndLargestInBST.md)
+### Problem 1 - [productOfIntegers](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/challenges/productOfIntegers/productOfIntegers.md)
+### Problem 2 - [coinDenominations](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/challenges/coinDenominations/coinDenominations.md)
+### Problem 3 - [2ndLargestInBST](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/challenges/2ndLargestInBST/2ndLargestInBST.md)
 
 Bonus Problems!
-### Problem 1 - [hammingDistance](challenges/hammingDistance/hammingDistance.md)
-### Problem 2 - [edgeTree](challenges/edgeTree/edgeTree.md)
-### Problem 3 - [clique](challenges/clique/clique.md)
+### Problem 1 - [hammingDistance](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/challenges/hammingDistance/hammingDistance.md)
+### Problem 2 - [edgeTree](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/challenges/edgeTree/edgeTree.md)
+### Problem 3 - [clique](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/challenges/clique/clique.md)
