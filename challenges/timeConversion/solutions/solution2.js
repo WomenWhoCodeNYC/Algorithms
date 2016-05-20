@@ -51,3 +51,5 @@ convertTime("01:00:00AM"); //output: "01:00:00"
 convertTime("12:00:00AM"); //output: "00:00:00"
 convertTime("12:00:00PM"); //output: "12:00:00"
 convertTime("09:00:00PM"); //output: "21:00:00"
+
+//submitted by Lavie Ruan (github.com/laviemaru)
