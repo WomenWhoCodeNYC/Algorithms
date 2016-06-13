@@ -6,7 +6,7 @@ We're going to write a method that converts an integer to its Roman numeral equi
 RSpec tests are included. The files containing our tests are located in the `spec/` directory. You only have one test file:  `spec/roman_numerals_spec.rb`. In order for the tests to run, be sure you have
 the `rspec` gem installed on your computer.
 
-To run tests from the command line, navigate to the application's root directory and run the `rspec` command.  This command will look for a `spec/` directory.  It will look at each of the files in the `spec/` directory and run any file whose filename ends in *_spec.rb*.
+To run tests from the command line, navigate to the application's root directory and run the `rspec` command.  This command will look for a `spec/` directory.  It will look at each of the files in the `spec/` directory and run any file whose filename ends in *_spec.rb*. **(NOTE: While the test setup currently only supports Ruby, this problem is doable in any programming language)**
 
 ###Release 0 : Old Roman Numerals
 
