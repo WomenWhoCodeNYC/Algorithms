@@ -1,3 +1,11 @@
+/*
+Explanation : instead of assigning and reassigning variables 'first', 'second', etc
+I used a js native array and implement it as a queue with initial values 1 and 2 (some may use classic 1,1)
+process.hrtime() is a Node environment time which returns tuplet array of [sec,nanosec]
+I wish I knew of a mathy way to get a better than O(n) runtime though!
+*/
+
+
 var arr = [1,2];
 var accumulator = 0;
 var next= null;
