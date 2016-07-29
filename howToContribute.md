@@ -4,6 +4,7 @@ This repo and these events are curated, crafted, and cared for by coders like yo
 ## Things we LOVE:
 * `New problems!` They should be language agnostic, vary widely in difficulty, and should take between 5-20 minutes to complete. We aim to have about 6 problems per event, with level 1 being the easiest and level 6 being the hardest. If you submit a problem, please consider submitting one solution as well in either pseudo code or the language of your choice. Consider adding your estimation of difficulty if you'd like.
 * `New solutions!` We accept all levels of optimization and all languages. Consider adding tests for bonus points :)
+* `New tests!` Add tests to solutions you submit or existing solutions in a *testing* folder within the *solutions* folder. Please update the README.md within the testing folder on how to set it up and run the test(s).
 * `Presenters!` Do you have a 5-15 minute talk that could help someone ace their next interview or come one step closer to mastering algorithms or data structures more generally? Talk to one of our volunteers and pitch us your idea.
 * `Tutors` and `in person volunteers!` We need folks to do everything from help people check in, to find the bathroom, to tutoring and supporting our fellow coders. If one of those roles sounds exciting to you, talk to a volunteer!
 * `Free resources!` They go in our [main readme](./README.md)
@@ -25,6 +26,11 @@ Take note! At the moment we generally structure and namespace our files like so:
 			│   │       ├── NameOfProblem.py
 			│   │       └── NameOfProblem.cpp
 					|					... any other solution formats
+					│   │   └── testing (folder)
+					│   │       ├── NameOfProblemTest.js
+					│   │       ├── name_of_problem_spec.rb
+					│   │       └── README.md
+					|					... any other testing formats (also okay within folders)
 					├──(Make new folders for problems you are adding!)
 			├── gitGuide.md
 			├── howToContribute.md
