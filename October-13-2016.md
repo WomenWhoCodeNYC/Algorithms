@@ -1,4 +1,6 @@
 
+### Problem 1 - [timeConversion](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/challenges/timeConversion/timeConversion.md)
+
 ## Problem 2 - Balanced Parentheses
 Problem found on [StackExchange](http://codereview.stackexchange.com/questions/45916/check-for-balanced-parentheses)
 
