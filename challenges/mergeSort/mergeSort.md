@@ -9,6 +9,6 @@ Repeatedly merge sublists to produce new sorted sublists until there is only 1 s
 ```
 
 Can you show an example?
-![image of merge sort](https://en.wikipedia.org/wiki/Merge_sort#/media/File:Merge_sort_algorithm_diagram.svg)
+![image of merge sort](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg)
 
 -https://en.wikipedia.org/wiki/Merge_sort
