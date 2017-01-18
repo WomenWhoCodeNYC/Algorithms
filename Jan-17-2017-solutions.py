@@ -1,3 +1,7 @@
+# Author is github id: ddk376
+# Contributors : Python group in the January 17, 2017 meetup 
+# Version: Python 3.5.2
+
 def evenOddLetters(s, unique = False ):
     """Takes a string and checks the number of letter in a word are even or odd.
       If unique is set to True, it checks the number of unique letters in a word are even or odd"""
@@ -50,13 +54,13 @@ def towersOfHanoi(num_of_disks, start_col, end_col, temp_col):
 
     if num_of_disks == 1 : moveDisk(1, start_col, end_col)
     else:
-        towersOfHanoi(num_of_disks - 1, start_col, temp_col, end_col) # move the N-1 disks out of the way to the temp column
-        moveDisk(num_of_disks, start_col, end_col) # after all the smaller disks are out of the way, move the biggest disk to the end_col
-        towersOfHanoi( num_of_disks - 1, temp_col, end_col, start_col) # now move the N-1 disks to the end_col from the temp_col 
+        towersOfHanoi(num_of_disks - 1, start_col, temp_col, end_col)    # move the N-1 disks out of the way to the temp column
+        moveDisk(num_of_disks, start_col, end_col)                       # after all the smaller disks are out of the way, move the biggest disk to the end_col
+        towersOfHanoi( num_of_disks - 1, temp_col, end_col, start_col)   # now move the N-1 disks to the end_col from the temp_col 
 
 
 def moveDisk(disk_num, from_col, to_col):
-    print("Move disk " + str(disk_num) + " from column " + str(from_col) + " to column" + str(to_col))
+    print("Move disk " + str(disk_num) + " from column " + str(from_col) + " to column " + str(to_col))
 
 
 def triangleInequality(side1, side2, side3):
