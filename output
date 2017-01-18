@@ -1,0 +1,84 @@
+Testing evenOddLetters............................
+Odd
+Even
+
+Testing rocksPaperScissors........................
+Tie
+Rock crushes Scissors
+Scissors cuts Paper
+
+Scissors cuts Paper
+Paper covers Rock
+Rock crushes Lizard
+Lizard poisons Spock
+Spock smashes Scissors
+Scissors decapitates Lizard
+Lizard eats Paper
+Paper disproves Spock
+Spock vaporizes Rock
+Rock crushes Scissors
+
+Testing towersOfHanoi............................
+3 disks
+Move disk 1 from column 1 to column3
+Move disk 2 from column 1 to column2
+Move disk 1 from column 3 to column2
+Move disk 3 from column 1 to column3
+Move disk 1 from column 2 to column1
+Move disk 2 from column 2 to column3
+Move disk 1 from column 1 to column3
+4 disks
+Move disk 1 from column 1 to column2
+Move disk 2 from column 1 to column3
+Move disk 1 from column 2 to column3
+Move disk 3 from column 1 to column2
+Move disk 1 from column 3 to column1
+Move disk 2 from column 3 to column2
+Move disk 1 from column 1 to column2
+Move disk 4 from column 1 to column3
+Move disk 1 from column 2 to column3
+Move disk 2 from column 2 to column1
+Move disk 1 from column 3 to column1
+Move disk 3 from column 2 to column3
+Move disk 1 from column 1 to column2
+Move disk 2 from column 1 to column3
+Move disk 1 from column 2 to column3
+5 disks
+Move disk 1 from column 1 to column3
+Move disk 2 from column 1 to column2
+Move disk 1 from column 3 to column2
+Move disk 3 from column 1 to column3
+Move disk 1 from column 2 to column1
+Move disk 2 from column 2 to column3
+Move disk 1 from column 1 to column3
+Move disk 4 from column 1 to column2
+Move disk 1 from column 3 to column2
+Move disk 2 from column 3 to column1
+Move disk 1 from column 2 to column1
+Move disk 3 from column 3 to column2
+Move disk 1 from column 1 to column3
+Move disk 2 from column 1 to column2
+Move disk 1 from column 3 to column2
+Move disk 5 from column 1 to column3
+Move disk 1 from column 2 to column1
+Move disk 2 from column 2 to column3
+Move disk 1 from column 1 to column3
+Move disk 3 from column 2 to column1
+Move disk 1 from column 3 to column2
+Move disk 2 from column 3 to column1
+Move disk 1 from column 2 to column1
+Move disk 4 from column 2 to column3
+Move disk 1 from column 1 to column3
+Move disk 2 from column 1 to column2
+Move disk 1 from column 3 to column2
+Move disk 3 from column 1 to column3
+Move disk 1 from column 2 to column1
+Move disk 2 from column 2 to column3
+Move disk 1 from column 1 to column3
+
+Testing triangleInequality........................
+Valid Triangle
+Not a valid Triangle
+
+Testing primesBase10..............................
+[2, 3, 5, 7, 23, 37, 53, 73, 223, 227, 233, 257, 277, 337, 353, 373, 523, 557, 577, 727, 733, 757, 773, 2237, 2273, 2333, 2357, 2377, 2557, 2753, 2777, 3253, 3257, 3323, 3373, 3527, 3533, 3557, 3727, 3733, 5227, 5233, 5237, 5273, 5323, 5333, 5527, 5557, 5573, 5737, 7237, 7253, 7333, 7523, 7537, 7573, 7577, 7723, 7727, 7753, 7757]
