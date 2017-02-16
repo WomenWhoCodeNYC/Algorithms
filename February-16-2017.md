@@ -5,5 +5,5 @@
 ### [Lattice Paths](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/challenges/latticePaths/latticePaths.md)
 ### [Partition Linked List](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/challenges/partitionLinkedList/partitionLinkedList.md)
 
-Happy Galentine's Day
-![https://media.giphy.com/media/l3q2tpNX0icJxe87K/source.gif]()
+
+![Happy Galentine's Day](https://media.giphy.com/media/l3q2tpNX0icJxe87K/source.gif)
