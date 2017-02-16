@@ -7,3 +7,5 @@
 
 
 ![Happy Galentine's Day](https://media.giphy.com/media/l3q2tpNX0icJxe87K/source.gif)
+![Happy Galentine's Day pt2](https://media.giphy.com/media/qjXuMQ4TTaDSg/giphy.gif)
+....uhhh, Leslie, are you sure you don't mean Feb 16 aka WWCNYC's Algorithm's night is the best day of the year?
