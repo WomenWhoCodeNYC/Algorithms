@@ -1,0 +1,21 @@
+// github.com/iOess
+// Swift 3
+//
+// Given three edge lengths, check whether they could form a triangle. This is true if no edge is longer than the other two added together. For example, 3 4 5 is a valid triangle, but 3 4 8 is not because 8 > 3 + 4.
+
+func triangleInequality(edges: [Int]) {
+    
+    guard let max = edges.max() else {return}
+    
+    if max > edges.filter({$0 != max}).reduce(0, +)
+    {
+        print("Could NOT form a triangle")
+    }
+    else {
+        print("Could form a triangle")
+    }
+}
+
+triangleInequality(edges: [3,4,5]) // Could form a triangle
+triangleInequality(edges: [3,4,7]) // Could form a triangle
+triangleInequality(edges: [3,4,8]) // Could NOT form a triangle
