@@ -1,4 +1,4 @@
-##Compare two strings represented as linked lists
+## Compare two strings represented as linked lists
 
 The following problem is taken from [geeksforgeeks.org](http://www.geeksforgeeks.org/compare-two-strings-represented-as-linked-lists/). NB: the link contains solution. We recommend you to try this yourself first.
 
