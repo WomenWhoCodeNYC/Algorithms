@@ -1,3 +1,4 @@
+# O(1) time effi.
 def maskify(str: raise)
 	return str if str.size <= 4
 	"#{'#' * (str.size - 4)}#{str[-4..-1]}" 
