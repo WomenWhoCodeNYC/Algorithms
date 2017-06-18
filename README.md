@@ -1,7 +1,7 @@
 # WWCNYC Algorithms Meetup
 This repository contains resources related to the monthly algorithms meetup. Here you can find all of the past problems and (ongoing) solutions for past Algorithms events.
 
-# [Link to this month's problems](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/May-25-2017.md)
+# [Link to this month's problems](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/June-21-2017.md)
 
 **If you'd like to contribute to this repo or learn about volunteering checkout [How To Contribute](./howToContribute.md)**
 
