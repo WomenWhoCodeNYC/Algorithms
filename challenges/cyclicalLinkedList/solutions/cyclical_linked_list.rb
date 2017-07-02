@@ -1,6 +1,5 @@
 require 'set'
 
-
 class Node
 	attr_accessor :next, :value
 	
