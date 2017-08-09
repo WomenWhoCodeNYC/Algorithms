@@ -9,7 +9,7 @@ This repo and these events are curated, crafted, and cared for by coders like yo
 * `Tutors` and `in person volunteers!` We need folks to do everything from help people check in, to find the bathroom, to tutoring and supporting our fellow coders. If one of those roles sounds exciting to you, talk to a volunteer!
 * `Free resources!` They go in our [main readme](./README.md)
 
-## Got a good `problem`? Maybe a sweet `solution`?
+## Contributing Problems and Solutions to the Repo!
 Checkout our latest and greatest **[GitGuide](./gitGuide.md)** to walk you through submitting your first pull request with your contribution!
 Take note! At the moment we generally structure and namespace our files like so:
 ```
