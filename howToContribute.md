@@ -13,27 +13,22 @@ This repo and these events are curated, crafted, and cared for by coders like yo
 Checkout our latest and greatest **[GitGuide](./gitGuide.md)** to walk you through submitting your first pull request with your contribution!
 Take note! At the moment we generally structure and namespace our files like so:
 ```
-├── Algorithms (top folder)	
-			├── Day-Month-Year.md (date of algorithm event)
-			├── Day-Month-Year.md
-			├── Day-Month-Year.md
-			├── UnusedProblems
-			├── challenges
-			│   ├── NameOfProblem
-			│   │   ├── NameOfProblem.md (description of the problem)
-			│   │   └── solutions (folder)
-			│   │       ├── NameOfProblem.js
-			│   │       ├── NameOfProblem.py
-			│   │       └── NameOfProblem.cpp
-					|					... any other solution formats
-					│   │   └── testing (folder)
-					│   │       ├── NameOfProblemTest.js
-					│   │       ├── name_of_problem_spec.rb
-					│   │       └── README.md
-					|					... any other testing formats (also okay within folders)
-					├──(Make new folders for problems you are adding!)
-			├── gitGuide.md
-			├── howToContribute.md
+├── Algorithms (top folder)
+	├── gitGuide.md
+	├── howToContribute.md
+	├── Day-Month-Year.md (date of next algorithm event, markdown file with links to problems)
+	├── pastEvents (folder)
+		├── Day-Month-Year.md (date of past algorithm events, markdown files with links to old problems)
+	├── challenges (folder)
+		├── NameOfProblem (folder)
+			├── NameOfProblem.md (markdown file with description of the problem)
+			├── solutions (folder)
+				├── NameOfProblem.js (solutions files in various languages)
+				├── NameOfProblem.py
+				├── NameOfProblem.rb 
+				├── testing (folder)
+					├──(any testing files you may need!)
+
 ```
 It'd be cool if you can do the same. But if not we will work with what we got.
 
