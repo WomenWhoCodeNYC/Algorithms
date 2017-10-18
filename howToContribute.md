@@ -1,4 +1,4 @@
-#Contribute to the WWCNYC Algorithms group!
+# Contribute to the WWCNYC Algorithms group!
 This repo and these events are curated, crafted, and cared for by coders like you. We are actively looking for new contributors who identify as women, trans, or genderqueer, who can help share their knowledge of programming with others. If this sounds like you, read on!
 
 ## Things we LOVE:
@@ -33,12 +33,12 @@ Take note! At the moment we generally structure and namespace our files like so:
 It'd be cool if you can do the same. But if not we will work with what we got.
 
 ## New to git?
-Git and Github allow us to collaborate on projects without ever worrying about losing our work (or our minds). Think google docs but with better version control.
+Git and GitHub allow us to collaborate on projects without ever worrying about losing our work (or our minds). Think google docs but with better version control.
 
 To get started here are a few free tutorials/readings:
 * **[WWCNYC's GitGuide](./gitGuide.md)** (this will walk you through a pull request to our repo)
 * [Try Git](https://try.github.io/levels/1/challenges/1)
-* [Github Guides](https://guides.github.com/)
+* [GitHub Guides](https://guides.github.com/)
 * [Git Guide](http://rogerdudler.github.io/git-guide/)
 * [Git for Beginners](http://www.sitepoint.com/git-for-beginners/)
 * [StackOverFlow](http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide)
