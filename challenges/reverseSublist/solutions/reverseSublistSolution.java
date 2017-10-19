@@ -21,29 +21,35 @@ public class Main {
         int startEnd = (l.size() - mod) - k;
         LinkedList<Object> temp = new LinkedList();
         int m = 0;
-
-        while (m < mod) {
-            temp.addFirst(l.pollLast());
-            m++;
-        }
-        while (g <= group) {
-            Iterator node = l.iterator();
-            Object pointer;
-            int s = 0;
-
-            while (s < startEnd) {
-                pointer = node.next();
-                s++;
+        if (k < l.size()) {
+            while (m < mod) {
+                temp.addFirst(l.pollLast());
+                m++;
             }
-            startEnd -= k;
+            while (g <= group) {
+                Iterator node = l.iterator();
+                Object pointer;
+                int s = 0;
 
-            int counter = 0;
-            while (counter < k) {
-                pointer = node.next();
-                temp.addFirst(pointer);
-                counter++;
+                while (s < startEnd) {
+                    pointer = node.next();
+                    s++;
+                }
+                startEnd -= k;
+
+                int counter = 0;
+                while (counter < k) {
+                    pointer = node.next();
+                    temp.addFirst(pointer);
+                    counter++;
+                }
+                g++;
             }
-            g++;
+        }else{
+            for (int i=0; i < l.size(); i++) {
+                temp.add(l.pollLast());
+                l.addFirst(temp.getLast());
+            }
         }
         System.out.println(temp);
         return temp;
