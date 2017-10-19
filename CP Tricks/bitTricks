@@ -1,0 +1,110 @@
+Compute XOR from 1 to n (direct method) :
+
+// Direct XOR of all numbers from 1 to n
+int computeXOR(int n)
+{
+    if (n % 4 == 0)
+        return n;
+    if (n % 4 == 1)
+        return 1;
+    if (n % 4 == 2)
+        return n + 1;
+    else
+        return 0;
+}
+
+Input: 6
+Output: 7
+
+Refer Compute XOR from 1 to n for details.
+We can quickly calculate the total number of combinations with numbers smaller than or equal to with a number whose sum and XOR are equal. Instead of using looping (Brute force method), we can directly find it by a mathematical trick i.e.
+
+// Refer Equal Sum and XOR for details.
+Answer = pow(2, count of zero bits)
+
+How to know if a number is a power of 2?
+//  Function to check if x is power of 2
+bool isPowerOfTwo(int x)
+{
+     // First x in the below expression is
+     // for  the case when x is 0 
+     return x && (!(x & (x - 1)));
+}
+
+Refer check if a number is power of two for details.
+Find XOR of all subsets of a set. We can do it in O(1) time. The answer is always 0 if given set has more than one elements. For set with single element, the answer is value of single element. Refer XOR of the XOR’s of all subsets for details.
+We can quickly find number of leading, trailing zeroes and number of 1’s in a binary code of an integer in C++ using GCC. It can be done by using inbuilt function i.e.
+
+  Number of leading zeroes: builtin_clz(x)
+  Number of trailing zeroes : builtin_ctz(x)
+  Number of 1-bits: __builtin_popcount(x) 
+
+Refer GCC inbuilt functions for details.
+Convert binary code directly into an integer in C++.
+// Conversion into Binary code//
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    auto number = 0b011;
+    cout << number;
+    return 0;
+}
+
+Output: 3
+
+The Quickest way to swap two numbers:
+
+a ^= b;
+b ^= a; 
+a ^= b;
+
+Refer swap two numbers for details.
+Simple approach to flip the bits of a number: It can be done by a simple way, just simply subtract the number from the value obtained when all the bits are equal to 1 .
+For example:
+
+Number : Given Number
+Value  : A number with all bits set in given number.
+Flipped number = Value – Number.
+
+Example : 
+Number = 23,
+Binary form: 10111;
+After flipping digits number will be: 01000;
+Value: 11111 = 31;
+
+We can find the most significant set bit in O(1) time for a fixed size integer. For example below cocde is for 32 bit integer.
+int setBitNumber(int n)
+{      
+    // Below steps set bits after
+    // MSB (including MSB)
+ 
+    // Suppose n is 273 (binary 
+    // is 100010001). It does following
+    // 100010001 | 010001000 = 110011001
+    n |= n>>1;
+ 
+    // This makes sure 4 bits
+    // (From MSB and including MSB)
+    // are set. It does following
+    // 110011001 | 001100110 = 111111111
+    n |= n>>2;   
+ 
+    n |= n>>4;  
+    n |= n>>8;
+    n |= n>>16;
+     
+    // Increment n by 1 so that
+    // there is only one set bit
+    // which is just before original
+    // MSB. n now becomes 1000000000
+    n = n + 1;
+ 
+    // Return original MSB after shifting.
+    // n now becomes 100000000
+    return (n >> 1);
+}
+
+Refer Find most significant set bit of a number for details.
+We can quickly check if bits in a number are in alternate pattern (like 101010). We compute n ^ (n >> 1). If n has an alternate pattern, then n ^ (n >> 1) operation will produce a number having set bits only. ‘^’ is a bitwise XOR operation. Refer check if a number has bits in alternate pattern for details. 
