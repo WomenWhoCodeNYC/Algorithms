@@ -54,7 +54,8 @@ class ReverseLLK {
 
     printList(head)
 
-    /* The strategy here is to keep pointers to the nodes before and after the sublist
+    /* 
+     * The strategy here is to keep pointers to the nodes before and after the sublist
      * that will be reversed, so that we can put the list back together post-reversal.
      * Then we walk through the list, reversing a sublist every time we've got k elements.
      */
