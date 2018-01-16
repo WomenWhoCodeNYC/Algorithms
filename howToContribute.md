@@ -1,4 +1,4 @@
-#Contribute to the WWCNYC Algorithms group!
+# Contribute to the WWCNYC Algorithms group!
 This repo and these events are curated, crafted, and cared for by coders like you. We are actively looking for new contributors who identify as women, trans, or genderqueer, who can help share their knowledge of programming with others. If this sounds like you, read on!
 
 ## Things we LOVE:
@@ -9,41 +9,36 @@ This repo and these events are curated, crafted, and cared for by coders like yo
 * `Tutors` and `in person volunteers!` We need folks to do everything from help people check in, to find the bathroom, to tutoring and supporting our fellow coders. If one of those roles sounds exciting to you, talk to a volunteer!
 * `Free resources!` They go in our [main readme](./README.md)
 
-## Got a good `problem`? Maybe a sweet `solution`?
+## Contributing Problems and Solutions to the Repo!
 Checkout our latest and greatest **[GitGuide](./gitGuide.md)** to walk you through submitting your first pull request with your contribution!
 Take note! At the moment we generally structure and namespace our files like so:
 ```
-├── Algorithms (top folder)	
-			├── Day-Month-Year.md (date of algorithm event)
-			├── Day-Month-Year.md
-			├── Day-Month-Year.md
-			├── UnusedProblems
-			├── challenges
-			│   ├── NameOfProblem
-			│   │   ├── NameOfProblem.md (description of the problem)
-			│   │   └── solutions (folder)
-			│   │       ├── NameOfProblem.js
-			│   │       ├── NameOfProblem.py
-			│   │       └── NameOfProblem.cpp
-					|					... any other solution formats
-					│   │   └── testing (folder)
-					│   │       ├── NameOfProblemTest.js
-					│   │       ├── name_of_problem_spec.rb
-					│   │       └── README.md
-					|					... any other testing formats (also okay within folders)
-					├──(Make new folders for problems you are adding!)
-			├── gitGuide.md
-			├── howToContribute.md
+├── Algorithms (top folder)
+	├── gitGuide.md
+	├── howToContribute.md
+	├── Day-Month-Year.md (date of next algorithm event, markdown file with links to problems)
+	├── pastEvents (folder)
+		├── Day-Month-Year.md (date of past algorithm events, markdown files with links to old problems)
+	├── challenges (folder)
+		├── NameOfProblem (folder)
+			├── NameOfProblem.md (markdown file with description of the problem)
+			├── solutions (folder)
+				├── NameOfProblem.js (solutions files in various languages)
+				├── NameOfProblem.py
+				├── NameOfProblem.rb 
+				├── testing (folder)
+					├──(any testing files you may need!)
+
 ```
 It'd be cool if you can do the same. But if not we will work with what we got.
 
 ## New to git?
-Git and Github allow us to collaborate on projects without ever worrying about losing our work (or our minds). Think google docs but with better version control.
+Git and GitHub allow us to collaborate on projects without ever worrying about losing our work (or our minds). Think google docs but with better version control.
 
 To get started here are a few free tutorials/readings:
 * **[WWCNYC's GitGuide](./gitGuide.md)** (this will walk you through a pull request to our repo)
 * [Try Git](https://try.github.io/levels/1/challenges/1)
-* [Github Guides](https://guides.github.com/)
+* [GitHub Guides](https://guides.github.com/)
 * [Git Guide](http://rogerdudler.github.io/git-guide/)
 * [Git for Beginners](http://www.sitepoint.com/git-for-beginners/)
 * [StackOverFlow](http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide)
