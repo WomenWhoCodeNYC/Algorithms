@@ -1,16 +1,17 @@
 # Count the number of ways to cover distance
 
-Given a distance ‘dist, count total number of ways to cover the distance with 1, 2 and 3 steps.
+## Problem
+Given a distance, count total number of ways to cover the distance with steps, leaps, and bounds!  A step covers a distance of 1, a leap covers a distance of 2, and a bound covers a distance of 3.
 
-Examples:
+## Examples
 
 ```javascript
 f(3) // How many ways can you cover a distance of 3?
 // => 4
-// 1 step + 1 step + 1 step
-// 1 step + 2 steps
-// 2 steps + 1 step
-// 3 steps
+// step (1) + step (1) + step (1)
+// step (1) + leap (2)
+// leap (2) + step (1)
+// bound (3)
 
 f(4)
 // => 7
