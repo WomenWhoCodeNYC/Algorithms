@@ -8,6 +8,7 @@ This repository contains resources related to the monthly algorithms meetup. Her
 See below for additional learning resources.
 
 ## Past Presentation Slides
+- [Intro Slides](https://docs.google.com/presentation/d/1G8BrS8-k-KUBe5fi0JqfjpxVHPQPL8wwHhlq_AjukJI/edit?usp=sharing)
 - [Big O Notation](https://docs.google.com/presentation/d/1q-yGw-ekqtHOtoCOCxXJIVUpfyg-5CGrX1tZs1PlO2U/edit?usp=sharing)
 - [REACTO](https://www.fullstackacademy.com/blog/the-reacto-pattern-for-acing-technical-interviews)
 - [Preparing for the Technical Interview](https://docs.google.com/presentation/d/1YcBQ4_w2u5BoS86GDvosDQdwIvmfNhLQY7xIf_7MwTE/pub?start=false&loop=false&delayms=3000)
