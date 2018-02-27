@@ -3,7 +3,6 @@
     1) run `javac fibonacciSum.java`
     2) run `java fibonacciSum
 */
-import java.util.ArrayList;
 
 public class FibonacciSum {
 
