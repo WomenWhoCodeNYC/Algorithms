@@ -1,7 +1,7 @@
 /*
     To see output: 
-    1) run `javac fibonacciSum.java`
-    2) run `java fibonacciSum
+    1) run `javac FibonacciSum.java`
+    2) run `java FibonacciSum
 */
 
 public class FibonacciSum {
