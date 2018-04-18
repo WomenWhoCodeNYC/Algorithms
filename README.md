@@ -19,6 +19,8 @@ See below for additional learning resources.
 - [Coderbyte](http://coderbyte.com/)
 - [HackerRank](https://www.hackerrank.com/)
 - [LeetCode OJ](https://leetcode.com/)
+- [Codelab](https://codelab.interviewbit.com/)
+
 
 ## Free resources for beginners
 - [WomenWhoCodeNYC's big repo of amazing resources](https://github.com/WomenWhoCodeNYC/Resources)
