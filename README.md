@@ -29,3 +29,4 @@ See below for additional learning resources.
 - [FreeCodeCamp](http://www.freecodecamp.com/)
 - [CodeNewbie](http://www.codenewbie.org/)
 - [Khan Academy](https://www.khanacademy.org/computing)
+- [BaseCS Podcast](https://www.codenewbie.org/basecs)
