@@ -17,3 +17,5 @@ f(28)
 f(29)
 // => false
 ```
+
+[Source](http://rosettacode.org/wiki/Perfect_numbers)
