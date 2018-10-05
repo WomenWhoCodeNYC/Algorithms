@@ -29,7 +29,7 @@ public class ReverseAMap {
         Map<String, List<String>> outputMap = new HashMap<>();
         String newKey, newValue;
         List<String> list;
-        for(Map.Entry<String, String> entry : inputMap.entrySet()) {
+        for(Entry<String, String> entry : inputMap.entrySet()) {
             newKey = entry.getValue();
             newValue = entry.getKey();
             if(outputMap.containsKey(newKey))
@@ -63,11 +63,8 @@ public class ReverseAMap {
     }
 
     public static void main(String[] args) {
-
         Map<String,String> map = Map.of("a","1", "b","2", "c", "1", "d", "3", "as", "3");   // Java 9
-        //map.put("5", "10");
         System.out.println(reverseMapImperatively(map));
         System.out.println(reverseMapDeclaratively(map));
-
     }
 }
