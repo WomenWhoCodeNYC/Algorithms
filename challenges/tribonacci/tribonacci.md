@@ -14,5 +14,5 @@ but if the signature was [0,0,1] it would be
 [0,0,1,1,2,4,7,13,24,...]
 ```
 
-Write a function that takes as it's argument a signature and an "N" and return the
+Write a function that takes as its argument a signature and an "N" and return the
 first n elements (including the signature)
