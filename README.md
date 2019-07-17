@@ -19,7 +19,7 @@ See below for additional learning resources.
 - [Coderbyte](http://coderbyte.com/)
 - [HackerRank](https://www.hackerrank.com/)
 - [LeetCode OJ](https://leetcode.com/)
-- [Codelab](https://codelab.interviewbit.com/)
+- [InterviewBit](https://www.interviewbit.com/)
 
 
 ## Free resources for beginners
