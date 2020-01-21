@@ -1,4 +1,4 @@
-# [Link to this month's problems](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/August-20-2019.md)
+# [Link to this month's problems](https://github.com/WomenWhoCodeNYC/Algorithms/blob/master/Jan-21-2020.md)
 
 # WWCNYC Algorithms Meetup
 This repository contains resources related to the monthly algorithms meetup. Here you can find all of the past problems and (ongoing) solutions for past Algorithms events.
